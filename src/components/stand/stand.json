@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_stand_stands",
+  "info": {
+    "displayName": "Stand",
+    "icon": "pinMap"
+  },
+  "options": {},
+  "attributes": {
+    "room": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::room.room"
+    },
+    "numStand": {
+      "type": "integer",
+      "min": 1
+    }
+  }
+}
